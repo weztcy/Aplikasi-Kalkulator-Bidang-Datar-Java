@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         double sisimiring = Math.sqrt(Math.pow(alasseg,2)*Math.pow(tinggiseg,2));
         double luasseg = (alasseg * tinggiseg);
         double kelseg = (sisimiring*2)+alasseg;
-        outputhasil.setText("- Persegi -\n"+"Luas = "+luasseg+"\nKeliling = "+kelseg);
+        outputhasil.setText("- Segitiga -\n"+"Luas = "+luasseg+"\nKeliling = "+kelseg);
     }
     public void lingkaran(View v){
         double diameterling = Double.parseDouble(panlasdi.getText().toString());
