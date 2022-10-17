@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         double alasseg = Double.parseDouble((panlasdi.getText().toString()));
         double tinggiseg = Double.parseDouble((leting.getText().toString()));
         double sisimiring = Math.sqrt(Math.pow(alasseg,2)*Math.pow(tinggiseg,2));
-        double luasseg = (alasseg * tinggiseg);
+        double luasseg = (alasseg * tinggiseg) / 2;
         double kelseg = (sisimiring*2)+alasseg;
         outputhasil.setText("- Segitiga -\n"+"Luas = "+luasseg+"\nKeliling = "+kelseg);
     }
