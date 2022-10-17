@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         double lebarper = Double.parseDouble(leting.getText().toString());
         double luasper = panjangper * lebarper;
         double kelper = 2*(panjangper + lebarper);
-        outputhasil.setText("- Persegi -\n"+"Luas = "+luasper+"\nKeliling"+kelper);
+        outputhasil.setText("- Persegi -\n"+"Luas = "+luasper+"\nKeliling = "+kelper);
     }
     public void segitiga(View v){
         double alasseg = Double.parseDouble((panlasdi.getText().toString()));
@@ -34,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
         double sisimiring = Math.sqrt(Math.pow(alasseg,2)*Math.pow(tinggiseg,2));
         double luasseg = (alasseg * tinggiseg);
         double kelseg = (sisimiring*2)+alasseg;
-        outputhasil.setText("- Persegi -\n"+"Luas = "+luasseg+"\nKeliling"+kelseg);
+        outputhasil.setText("- Persegi -\n"+"Luas = "+luasseg+"\nKeliling = "+kelseg);
     }
     public void lingkaran(View v){
         double diameterling = Double.parseDouble(panlasdi.getText().toString());
         double kelling = Math.PI * diameterling;
         double luasling = Math.PI * Math.pow(diameterling, 2) / 4;
-        outputhasil.setText("- Lingkaran -\n"+"Luas = "+kelling+"\nKeliling"+luasling);
+        outputhasil.setText("- Lingkaran -\n"+"Luas = "+kelling+"\nKeliling = "+luasling);
     }
 }
