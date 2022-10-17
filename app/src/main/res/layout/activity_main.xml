@@ -40,6 +40,7 @@
             android:textSize="15dp"
             android:paddingLeft="10dp"
             android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:background="@drawable/input_style"/>
     </LinearLayout>
 
@@ -65,6 +66,7 @@
             android:textSize="15dp"
             android:paddingLeft="10dp"
             android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:background="@drawable/input_style"/>
     </LinearLayout>
 
