@@ -60,21 +60,22 @@
             android:background="@drawable/input_style"/>
     </LinearLayout>
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="vertical"-->
-<!--        android:layout_marginTop="30dp">-->
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Pilihan Bangun Datar"/>-->
-<!--        <Spinner-->
-<!--            android:id="@+id/spinner_option"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:entries="@array/opsibangundatar"/>-->
-<!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilihan Bangun Datar"/>
+        <Spinner
+            android:id="@+id/spinner_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/opsibangundatar"/>
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -87,25 +88,27 @@
             android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_gravity="right"
+            android:onClick="persegi"
             android:text="Persegi"
-            android:backgroundTint="@color/black"
-            android:background="@drawable/round_corner"/>
+            android:background="@drawable/round_corner1"/>
         <Button
             android:id="@+id/button_segitiga"
             android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
             android:layout_gravity="center"
+            android:onClick="segitiga"
             android:text="Segitiga"
-            android:background="@drawable/round_corner"/>
+            android:background="@drawable/round_corner2"/>
         <Button
             android:id="@+id/button_lingkaran"
             android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
             android:layout_gravity="left"
+            android:onClick="lingkaran"
             android:text="Lingkaran"
-            android:background="@drawable/round_corner"/>
+            android:background="@drawable/round_corner3"/>
     </LinearLayout>
 
     <TextView
